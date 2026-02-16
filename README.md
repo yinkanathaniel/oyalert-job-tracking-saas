@@ -142,3 +142,40 @@ Subscriptions
 
 Live web application with active subscription billing.
 Currently iterating on onboarding, billing logic and workflow improvements.
+
+## Payment Tracking Enhancement
+
+The job model was extended to include structured financial tracking fields:
+
+- total_price
+
+- amount_paid
+
+- remaining_balance (derived field)
+
+- payment_status (derived field)
+
+## Business Logic
+
+Payment status is calculated automatically:
+
+- If amount_paid = 0 → Unpaid
+
+- If 0 < amount_paid < total_price → Partially Paid
+
+- If amount_paid ≥ total_price → Fully Paid
+
+This prevents manual status errors and ensures financial tracking is derived from numeric values rather than user selection.
+
+## Design Decision
+
+Payment status is not manually editable.
+It is derived from financial values to maintain data consistency.
+
+This improves:
+
+- Accuracy
+
+- Auditability
+
+- Workflow reliability
