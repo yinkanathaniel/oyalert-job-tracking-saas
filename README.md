@@ -2,6 +2,10 @@
 
 SaaS job tracking and SMS notification platform for small service businesses, designed with structured data modelling, lifecycle tracking and subscription billing logic.
 
+## Technical Summary
+
+Oyalert is a web-based SaaS application built using Lovable Cloud (Supabase-powered infrastructure), with a relational data model and structured workflow logic. The system enforces staged job lifecycle transitions, derived payment status fields and subscription-based feature gating for SMS notifications to maintain data consistency.
+
 ## Problem Motivation
 
 The idea for Oyalert came from observing how small service businesses often lose structured tracking when operating independently.
@@ -44,13 +48,11 @@ Oyalert was built to introduce simple structure and automated notifications for 
 
  ### Backend
 
-- Lovable Cloud (Supabase)
+- Managed cloud backend via Lovable Cloud (Supabase-powered infrastructure)
 
-- Relational data model
+- Relational database with per-user data isolation
 
-- Email/password authentication
-
-- Per-user data isolation
+- Built-in authentication and subscription state handling
 
  ### Billing
 
