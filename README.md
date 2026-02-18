@@ -1,6 +1,6 @@
 # Oyalert – Job Tracking SaaS
 
-SaaS job tracking and SMS notification platform for small independent service businesses such as tailors, mechanics, cobblers and hairdressers.
+SaaS job tracking and SMS notification platform for small service businesses, designed with structured data modelling, lifecycle tracking and subscription billing logic.
 
 ## Problem Motivation
 
