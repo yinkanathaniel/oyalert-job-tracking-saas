@@ -183,13 +183,15 @@ This improves:
 ## Screenshots
 
 ### Jobs Dashboard
-![Jobs Dashboard](screenshots/dashboard-overview.png)
+![Jobs Dashboard](jobs-dashboard.png)
 
 ### Diary View
-![Diary View](screenshots/diary-view.png)
+![Diary View](diary-view.png)
 
 ### Job Edit & Payment Logic
-![Job Edit](screenshots/job-edit-payment-logic.png)
+![Job Detail and Payment Tracking](job-detail-payment-tracking.png)
 
 ### Subscription Model
-![Subscription](screenshots/subscription-model.png)
+![Subscription and SMS Settings](subscription-and-sms-settings.png)
+
+
