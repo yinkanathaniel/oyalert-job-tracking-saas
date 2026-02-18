@@ -179,3 +179,17 @@ This improves:
 - Auditability
 
 - Workflow reliability
+
+## Screenshots
+
+### Jobs Dashboard
+![Jobs Dashboard](screenshots/dashboard-overview.png)
+
+### Diary View
+![Diary View](screenshots/diary-view.png)
+
+### Job Edit & Payment Logic
+![Job Edit](screenshots/job-edit-payment-logic.png)
+
+### Subscription Model
+![Subscription](screenshots/subscription-model.png)
